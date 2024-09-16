@@ -10,19 +10,19 @@ export function App (){
                 formatUserName={formatUserName} 
                 userName="midudev" 
                 name="Javier" 
-                isFollowing={true}
+                initialIsFollowing={true}
             />
             <XFollowCard 
                 formatUserName={formatUserName} 
                 userName="pheralb" 
                 name="Javier" 
-                isFollowing={false} 
+                // isFollowing={false} 
             />
             <XFollowCard 
                 formatUserName={formatUserName} 
-                userName="JavAsan" 
+                 
                 name="Javier" 
-                isFollowing 
+                // isFollowing 
             />
         </section>
         
